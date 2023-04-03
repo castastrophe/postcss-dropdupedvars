@@ -1,0 +1,30 @@
+{
+  "name": "postcss-dropdupedvars",
+  "version": "2.0.0",
+  "description": "Drop duplicate custom variables.",
+  "license": "Apache-2.0",
+  "author": "Larry Davis <lazdnet@gmail.com>",
+  "contributors": [
+    "Cassondra Roberts <castastrophe@users.noreply.github.com> (https://allons-y.llc)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/castastrophe/postcss-dropdupedvars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/castastrophe/postcss-dropdupedvars/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "coverage": "c8 ava"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
+  },
+  "devDependencies": {
+    "ava": "^5.2.0",
+    "c8": "^7.13.0",
+    "postcss": "^8.4.21"
+  }
+}
