@@ -18,7 +18,7 @@
   "scripts": {
     "prepare": "husky install",
     "test": "ava",
-    "coverage": "c8 ava",
+    "coverage": "c8 yarn test",
     "semantic-release": "semantic-release"
   },
   "peerDependencies": {
