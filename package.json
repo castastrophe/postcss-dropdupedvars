@@ -1,6 +1,6 @@
 {
   "name": "postcss-dropdupedvars",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Drop duplicate custom variables.",
   "license": "Apache-2.0",
   "author": "Larry Davis <lazdnet@gmail.com>",
