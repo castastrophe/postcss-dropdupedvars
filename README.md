@@ -1,5 +1,6 @@
 # postcss-dropdupedvars
-> Drop duplicate vars
+
+> Drop duplicate custom properties
 
 ## Installation
 

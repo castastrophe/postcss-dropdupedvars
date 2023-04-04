@@ -16,15 +16,26 @@
   },
   "main": "index.js",
   "scripts": {
+    "prepare": "husky install",
     "test": "ava",
-    "coverage": "c8 ava"
+    "coverage": "c8 ava",
+    "semantic-release": "semantic-release"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.5.1",
+    "@commitlint/config-conventional": "^17.4.4",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^10.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "ava": "^5.2.0",
     "c8": "^7.13.0",
-    "postcss": "^8.4.21"
+    "husky": "^8.0.3",
+    "postcss": "^8.4.21",
+    "semantic-release": "^21.0.1"
   }
 }
