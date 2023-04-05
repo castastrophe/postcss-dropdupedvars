@@ -1,4 +1,5 @@
 {
+  "private": "false",
   "name": "postcss-dropdupedvars",
   "version": "2.1.0",
   "description": "Drop duplicate custom variables.",
@@ -7,10 +8,6 @@
   "contributors": [
     "Cassondra Roberts <castastrophe@users.noreply.github.com> (https://allons-y.llc)"
   ],
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/castastrophe/postcss-dropdupedvars.git"
@@ -19,8 +16,11 @@
     "url": "https://github.com/castastrophe/postcss-dropdupedvars/issues"
   },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "engines": {
-    "node": ">=14"
+    "node": ">=14 <=18"
   },
   "scripts": {
     "prepare": "husky install",
@@ -28,6 +28,12 @@
     "coverage": "c8 yarn test",
     "semantic-release": "semantic-release"
   },
+  "funding": [
+    {
+      "type": "github",
+      "url": " https://github.com/sponsors/castastrophe"
+    }
+  ],
   "peerDependencies": {
     "postcss": "^8.0.0"
   },
@@ -43,7 +49,30 @@
     "ava": "^5.2.0",
     "c8": "^7.13.0",
     "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.7",
+    "prettier-package-json": "^2.8.0",
     "semantic-release": "^21.0.1"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write"
+    ],
+    "package.json": [
+      "prettier-package-json --write"
+    ]
+  },
+  "keywords": [
+    "dedupe",
+    "css",
+    "custom",
+    "plugin",
+    "postcss",
+    "properties"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   }
 }
