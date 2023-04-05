@@ -7,6 +7,10 @@
   "contributors": [
     "Cassondra Roberts <castastrophe@users.noreply.github.com> (https://allons-y.llc)"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/castastrophe/postcss-dropdupedvars.git"
