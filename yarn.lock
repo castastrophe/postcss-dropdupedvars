@@ -650,7 +650,7 @@
     lodash "^4.17.4"
     read-pkg-up "^7.0.0"
 
-"@semantic-release/release-notes-generator@^11.0.0":
+"@semantic-release/release-notes-generator@^11.0.1":
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.1.tgz#38a7d66e9a762915bea36a006dbb2d41fbcb4a66"
   integrity sha512-4deWsiY4Rg80oc9Ms11N20BIDgYkPMys4scNYQpi2Njdrtw5Z55nXKNsUN3kn6Sy/nI9dqqbp5L63TL4luI5Bw==
