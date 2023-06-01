@@ -634,7 +634,7 @@
     semver "^7.1.2"
     tempy "^3.0.0"
 
-"@semantic-release/release-notes-generator@^11.0.0":
+"@semantic-release/release-notes-generator@^11.0.0", "@semantic-release/release-notes-generator@^11.0.2":
   version "11.0.2"
   resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.2.tgz#2ed08da9d6e3f14df0f48fa1d632136628549d55"
   integrity sha512-B+Aa82uciufoaoJulnzq7ezqH36nrHOO15ubJmg2hZitzCpPAa6X0pOtkffG+30HLdck5Ky2uJC4uAm/YylbOw==
@@ -645,22 +645,6 @@
     conventional-commits-parser "^3.2.3"
     debug "^4.0.0"
     get-stream "^7.0.0"
-    import-from "^4.0.0"
-    into-stream "^7.0.0"
-    lodash-es "^4.17.21"
-    read-pkg-up "^9.0.0"
-
-"@semantic-release/release-notes-generator@^11.0.1":
-  version "11.0.1"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-11.0.1.tgz#38a7d66e9a762915bea36a006dbb2d41fbcb4a66"
-  integrity sha512-4deWsiY4Rg80oc9Ms11N20BIDgYkPMys4scNYQpi2Njdrtw5Z55nXKNsUN3kn6Sy/nI9dqqbp5L63TL4luI5Bw==
-  dependencies:
-    conventional-changelog-angular "^5.0.0"
-    conventional-changelog-writer "^5.0.0"
-    conventional-commits-filter "^2.0.0"
-    conventional-commits-parser "^3.2.3"
-    debug "^4.0.0"
-    get-stream "^6.0.0"
     import-from "^4.0.0"
     into-stream "^7.0.0"
     lodash-es "^4.17.21"
